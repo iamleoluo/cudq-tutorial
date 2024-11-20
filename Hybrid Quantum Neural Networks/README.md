@@ -26,6 +26,23 @@ nstall the required packages using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
+### Step 3: Verify CUDA Installation
+
+To check if CUDA is installed and verify the version, run the following command:
+
+```sh
+nvcc --version
+```
+If CUDA is not installed, follow the instructions on the [NVIDIA CUDA Toolkit website](https://developer.nvidia.com/cuda-toolkit) to download and install the appropriate version for your system.
+
+### Step 4: Check GPU Status with nvidia-smi
+
+To check the status of your GPU and ensure it is recognized by the system, run the following command:
+
+```sh
+nvidia-smi
+```
+
 ## Installation and Running TensorBoard
 
 To install and run TensorBoard for monitoring your hybrid quantum neural networks, follow these steps:
