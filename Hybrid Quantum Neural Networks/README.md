@@ -43,6 +43,20 @@ To check the status of your GPU and ensure it is recognized by the system, run t
 nvidia-smi
 ```
 
+### Step 5: Check GPU Status with nvtop
+
+To monitor your GPU usage in real-time, you can use `nvtop`. Install it using the following command:
+
+```sh
+sudo apt-get install nvtop
+```
+
+Run `nvtop` to check the GPU status:
+
+```sh
+nvtop
+```
+
 ## Installation and Running TensorBoard
 
 To install and run TensorBoard for monitoring your hybrid quantum neural networks, follow these steps:
