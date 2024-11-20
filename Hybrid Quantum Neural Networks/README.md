@@ -87,7 +87,7 @@ pip install tensorboard
 Run TensorBoard to visualize your training logs:
 
 ```sh
-tensorboard --logdir=logs --host=localhost --port=6006
+tensorboard --logdir=runs --host=localhost --port=6006
 ```
 
 ### Step 6: Open TensorBoard in Your Browser
