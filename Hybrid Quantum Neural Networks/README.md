@@ -1,5 +1,9 @@
 # Hybrid Quantum Neural Networks
 
+## Original Code Source
+
+The original code for this tutorial is sourced from [NVIDIA CUDA Quantum](https://nvidia.github.io/cuda-quantum/latest/applications/python/hybrid_qnns.html).
+
 ## Creating a Conda Environment and Installing Required Packages
 
 To create a Conda environment and install the required packages for your hybrid quantum neural networks, follow these steps:
